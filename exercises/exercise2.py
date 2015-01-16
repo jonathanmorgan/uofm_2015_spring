@@ -1,6 +1,10 @@
 # Python program to find the
 # H.C.F of two input number
 
+# based on code from: http://www.programiz.com/python-programming/examples/hcf,
+#    but updated so it works (BONUS: what did I change to make it run other
+#    than formatting and adding comments?).
+
 # define a function
 def hcf( x, y ):
 
