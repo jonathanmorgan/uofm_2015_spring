@@ -45,11 +45,3 @@ num1 = 36
 num2 = 18
 
 print( "The H.C.F. of " + str( num1 ) + " and " + str( num2 ) + " is " + str( hcf( num1, num2 ) ) )
-
-def gcd_iter(u, v):
-    while v:
-        print( "v = " + str( v ) )
-        u, v = v, u % v
-    return abs(u)
-
-            
